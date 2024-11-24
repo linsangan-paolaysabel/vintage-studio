@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Lilita+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap" rel="stylesheet">
+<body>
+<!=========================================================== HEADER =============================================================>
+<header class="header" id="header">
+    <nav class="nav container">
+        <img src="images/finallogo.png" class="logo">
+
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+                <li><a href="#home" class="nav_link">Home</a></li>
+                <li><a href="#about" class="nav_link">About</a></li>
+                <li><a href="#services" class="nav_link">Services</a></li>
+                <li><a href="#portfolio" class="nav_link">Portfolio</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+
+            <div class="nav_close" id="nav-close">
+                <i class="ui uil-times"></i>
+            </div>
+        </div>
+
+        <div class="nav_socials">
+            <a href="https://www.facebook.com" target="_blank" class="nav_social-link">
+                <img src="images/fblogo.png" class="social_logo"> <!-- Updated class name -->
+                <i class="uil uil-facebook"></i>
+            </a>
+
+            <a href="https://www.twitter.com" target="_blank" class="nav_social-link">
+                <img src="images/twitterlogo.png" class="social_logo"> <!-- Updated class name -->
+                <i class="uil uil-twitter"></i>
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank" class="nav_social-link">
+                <img src="images/instagramlogo.png" class="social_logo"> <!-- Updated class name -->
+                <i class="uil uil-instagram"></i>
+            </a>
+
+            <a href="https://www.tiktok.com" target="_blank" class="nav_social-link">
+                <img src="images/tiktoklogo.png" class="social_logo"> <!-- Updated class name -->
+                <i class="uil uil-tiktok"></i>
+            </a>
+        </div>
+
+        <div class="nav_btns">
+            <a href="#contact" class="btn">Let's Talk</a>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!======================== MAIN =======================>
+<main class="main">
+<!=========================================================== HOME =============================================================>
+    <section class="home" id="home">
+        <div class="home_container container grid">
+            <div class="home_content">
+                <span class="home_subtitle">Welcome To Vintage Studio</span>
+                <h1 class="home_title">
+                    Hi, I'm Arvin Cunanan <br>a <span>Content Creator</span><br> from Nueva Ecija.
+                </h1>
+            </div>
+            <img src="images/fbackground.png" alt="" class="home_img">
+        </div>
+    </section>
+
+<!=========================================================== ABOUT =============================================================>
+    <section class="about section" id="about">
+        <div class="about_container container grid">
+            <img src="images/pic.jpg" alt="" class="about_img">
+            <div class="about_content">
+                <h2 class="section_title">About Me</h2>
+                <p class="section_description">I'm Arvin Joshua Cunanan, a 19-year-old student pursuing a Bachelor of Science in Information Technology. I am the owner of Vintage Studio and a passionate content creator from the province of Nueva Ecija. I enjoy creating content and photography, which inspired me to establish Vintage Studio, where I aim to enhance the quality of both videos and pictures. Moreover, I believe in the importance of being open to learning new things and perspectives, as this not only fuels my creativity but also helps me grow as a professional in the ever-evolving digital landscape. Through my work, I strive to share my unique vision and connect with others who share my passion for storytelling through visuals.
+                </p>
+
+                <div class="tabs_btns">
+                    <span class="tabs_btn tab_active" data-target="#hobbies">Hobbies</span>
+                    <span class="tabs_btn" data-target="#education">Education</span>
+                    <span class="tabs_btn" data-target="#personality">Personality Traits</span>
+                    <span class="tabs_btn" data-target="#goals">Goals</span>
+                </div>
+
+                <div class="tabs_content">
+                    <div class="tabs_item tab_active" data-content id="hobbies">
+                        <div class="tab_data grid">
+                            <p class="tabs_description">
+                                <span class="about-descript">Photography</span> 
+                                <span>My journey into photography started as a way to capture memories, 
+                                but it quickly turned into a passion for storytelling through images.</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="about-descript">Video Editing</span> 
+                                <span>Editing is where the magic truly happens. I find joy in taking raw footage 
+                                or images and molding them into something polished and meaningful.</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="about-descript">Playing Volleyball</span> 
+                                <span>From the moment I first stepped onto the volleyball court, 
+                                I felt an incredible sense of freedom and excitement.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tabs_item" data-content id="education">
+                        <div class="tab_data grid">
+                            <p class="tabs_description">
+                                <span class="educ-descript">Adorable Elementary School</span> (2016-2017)
+                                <span>Graduated With Honors (Salutatorian)</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="educ-descript">Tagumpay Nagano Highschool</span><br>
+                                <span>Junior Highschool - Graduated With Honors (2020-2021)</span>
+                                <span>Senior Highschool - Graduated With Honors (2022-2023)</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="educ-descript">Nueva Ecija University of Science and Technology</span> (2024)
+                                <span>Currently pursuing BS in Information Technology</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tabs_item" data-content id="personality">
+                        <div class="tab_data grid">
+                            <p class="tabs_description">
+                                <span class="person-descript">Curious and Eager to Learn</span> 
+                                <span>I’m always thinking about new things and eager to learn from anyone.</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="person-descript">Openness to Experience</span> 
+                                <span>I am ready to embrace new experiences and explore things I have yet to learn.</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="person-descript">Optimistic and Ambitious</span> 
+                                <span>I believe that my dreams are achievable, so I face the future with hope and determination.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tabs_item" data-content id="goals">
+                        <div class="tab_data grid">
+                            <p class="tabs_description">
+                                <span class="goal-descript">To become a software developer or IT specialist</span> 
+                                <span>I aspire to become a skilled software developer, creating innovative solutions that make a difference.</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="goal-descript">To work in a company that values innovation and technology</span> 
+                                <span>I seek to join a company that prioritizes innovation and technology, where I can contribute to cutting-edge solutions.</span>
+                            </p>
+
+                            <p class="tabs_description">
+                                <span class="goal-descript">To contribute to impactful IT solutions</span> 
+                                <span>I aim to contribute to impactful IT solutions that drive meaningful change and enhance user experiences.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!=========================================================== SERVICES =============================================================>
+    <section class="services section" id="services">
+        <h2 class="section_title">My Services</h2>
+        <p class="section_description">Our VINtage studio offers a range of services, including stunning portraits, elegant event coverage,
+         and professional product and fashion shoots. We also provide studio rentals with premium equipment and expert photo editing to ensure
+        polished, memorable results. Let us help you capture and create moments you’ll treasure forever.
+        </p>
+
+        <div class="services_container container grid">
+            <div class="services_item">
+                <span class="material-symbols-outlined">photo_camera</span>
+                <h3 class="services_title">Portrait Photography</h3>
+                <p class="services_description">
+                    Individual, couple, or family studio photoshoots.
+                </p>
+            </div> 
+
+            <div class="services_item">
+                <span class="material-symbols-outlined">storefront</span>
+                <h3 class="services_title">Product Photography</h3>
+                <p class="services_description">
+                   High-quality shots for business or e-commerce.
+                </p>
+            </div> 
+
+            <div class="services_item">
+                <span class="material-symbols-outlined">headset_mic</span>
+                <h3 class="services_title">Music Recording</h3>
+                <p class="services_description">
+                    Professional audio recording for musicians, podcasts, or voiceovers.
+                </p>
+            </div> 
+
+            <div class="services_item">
+                <span class="material-symbols-outlined">warehouse</span>
+                <h3 class="services_title">Studio Rental</h3>
+                <p class="services_description">
+                    Space and equipment rental for photoshoots, videos, or rehearsals.
+                </p>
+            </div> 
+
+            <div class="services_item">
+                <span class="material-symbols-outlined">videocam</span>
+                <h3 class="services_title">Video Production</h3>
+                <p class="services_description">
+                    Filming and editing services for advertisements, events, or short films.
+                </p>
+            </div> 
+
+            <div class="services_item">
+                <span class="material-symbols-outlined">compare</span>
+                <h3 class="services_title">Photo and Video Editing</h3>
+                <p class="services_description">
+                    Retouching, color grading, and post- production services
+                </p>
+            </div> 
+        </div>
+    </section>
+
+<!=========================================================== PORTFOLIO =============================================================>
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">My Projects</h2>
+        <p class="section_description">My recent projects have involved a diverse range of creative and technical work, from capturing dynamic portraits and events to producing high-quality product and fashion shoots. I’ve also worked on several photo editing and retouching tasks, ensuring every detail is perfected. Each project reflects my passion for photography and my dedication to delivering exceptional results that align with my clients’ visions.
+        </p>
+
+        <div class="portfolio_container container grid">
+            <div class="portfolio_item">
+                <img src="images/portrait.png" alt="" class="portfolio_img"/>
+
+                <div class="portfolio_data">
+                    <p class="portfolio_subtitle">VINtage Studio</p>
+                    <h3 class="portfolio_title">Portrait Photography</h3>
+                    <p class="portfolio_description">Captures the essence of a person, 
+                    telling a story through their emotions and expressions.
+                    </p>
+                </div>
+                <div class="portfolio_overlay"></div>
+            </div>
+
+            <div class="portfolio_item">
+                <img src="images/product.png" alt="" class="portfolio_img"/>
+
+                <div class="portfolio_data">
+                    <p class="portfolio_subtitle">VINtage Studio</p>
+                    <h3 class="portfolio_title">Product Photography</h3>
+                    <p class="portfolio_description">Showcases a product’s features and details, 
+                    making it appealing to potential buyers. 
+                    </p>
+                </div>
+                <div class="portfolio_overlay"></div>
+            </div>
+
+            <div class="portfolio_item">
+                <img src="images/photo.png" alt="" class="portfolio_img"/>
+
+                <div class="portfolio_data">
+                    <p class="portfolio_subtitle">VINtage Studio</p>
+                    <h3 class="portfolio_title">Photo and Video Editing</h3>
+                    <p class="portfolio_description">Delivers a dynamic editing suite that inspires creativity, 
+                    providing everything needed to seamlessly create stunning images and captivating videos.
+                </div>
+                <div class="portfolio_overlay"></div>
+            </div>
+        </div>
+    </section>
+
+<!=========================================================== CONTACT =============================================================>
+    <section class="contact section" id="contact">
+        <div class="contact_container container grid">
+            <div class="contact_content">
+                <h2 class="section_title">Recruit Me</h2>
+
+                <p class="contact_description">
+                I am available for freelance work. Connect with me via phone: 
+                <a href="tel:+63 9754134471">975-413-4471</a> or email: 
+                <a href="mailto: arvinjoshuacunanan@gmail.com">arvinjoshuacunanan@gmail.com</a>  
+                </p>
+
+               <form class="contact_form" id="contact-form">
+                    <div class="contact_form-input">
+                          <input type="text" name="name" placeholder="Your Name" class="contact_input" id="contact-name" />
+                    </div>
+
+                    <div class="contact_form-input">
+                        <input type="email" name="email" placeholder="Your Email" class="contact_input" id="contact-email" />
+                    </div>
+
+                    <div class="contact_form-input">
+                        <input type="text" name="subject" placeholder="Write a Subject" class="contact_input" id="contact-subject" />
+                    </div>
+
+                    <div class="contact_form-input">
+                        <textarea name="message" id="contact-message" class="contact_input textarea" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit" class="btn" />
+
+                    <p class="error_message" id="error-message"></p>
+                </form>
+
+            </div>
+
+            <img src="images/hire.jpg" alt="" class="contact_img" />
+        </div>
+    </section>
+
+</main>
+
+<!=========================================================== FOOTER =============================================================>
+<footer class="footer">
+   <div class="footer_container container grid">
+       <a href="index.html" class="footer_logo">Let your moments<br> shine through our lens.</a>
+
+       <div class="footer_socials">
+        <a href="https://www.facebook.com" target="_blank" class="footer_social-link">
+            <img src="images/fblogo.png" class="logo">
+            <i class="uil uil-facebook"></i>
+        </a>
+
+        <a href="https://www.twitter.com" target="_blank" class="footer_social-link">
+            <img src="images/twitterlogo.png" class="logo">
+            <i class="uil uil-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com" target="_blank" class="footer_social-link">
+            <img src="images/instagramlogo.png" class="logo">
+            <i class="uil uil-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com" target="_blank" class="footer_social-link">
+            <img src="images/tiktoklogo.png" class="logo">
+            <i class="uil uil-tiktok"></i>
+        </a>
+       </div>
+
+       <p class="footer_copyright">&copy; 2024. All rights reserved.</p>
+   </div> 
+</footer>
+
+ <a href="#" class="scrollup" id="scroll-up"> 
+    <span class="material-symbols-outlined">keyboard_double_arrow_up</span>
+ </a>  
+
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="finalscs.js"></script>
+
+</body>
+</html>
